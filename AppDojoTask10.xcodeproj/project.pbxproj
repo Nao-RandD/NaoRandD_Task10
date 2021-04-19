@@ -13,7 +13,6 @@
 		9F624683262CE02B003B0195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F624681262CE02B003B0195 /* Main.storyboard */; };
 		9F624685262CE02D003B0195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F624684262CE02D003B0195 /* Assets.xcassets */; };
 		9F624688262CE02D003B0195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F624686262CE02D003B0195 /* LaunchScreen.storyboard */; };
-		9F624691262CE4D0003B0195 /* PrefectureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F624690262CE4D0003B0195 /* PrefectureData.swift */; };
 		9F624695262D80B6003B0195 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F624694262D80B6003B0195 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		9F624684262CE02D003B0195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F624687262CE02D003B0195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F624689262CE02D003B0195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F624690262CE4D0003B0195 /* PrefectureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureData.swift; sourceTree = "<group>"; };
 		9F624694262D80B6003B0195 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 				9F624684262CE02D003B0195 /* Assets.xcassets */,
 				9F624686262CE02D003B0195 /* LaunchScreen.storyboard */,
 				9F624689262CE02D003B0195 /* Info.plist */,
-				9F624690262CE4D0003B0195 /* PrefectureData.swift */,
 				9F624694262D80B6003B0195 /* CustomCell.swift */,
 			);
 			path = AppDojoTask10;
@@ -147,7 +144,6 @@
 				9F62467C262CE02B003B0195 /* AppDelegate.swift in Sources */,
 				9F624695262D80B6003B0195 /* CustomCell.swift in Sources */,
 				9F62467E262CE02B003B0195 /* SceneDelegate.swift in Sources */,
-				9F624691262CE4D0003B0195 /* PrefectureData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
