@@ -14,23 +14,14 @@ class ListViewController: UIViewController {
 extension ListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
-            return prefectureData.count
+        prefectureData.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomCell
-            cell.prefectureLabel!.text = prefectureData[indexPath.row]
-            cell.messageLabel!.text = "\(indexPath.row+1)番目の都道府県です"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomCell
 
-        switch indexPath.row % 3 {
-        case 0:
-            cell.contentView.backgroundColor = UIColor(red: 1.0, green: 0, blue: 0, alpha: 0.3)
-        case 1:
-            cell.contentView.backgroundColor = UIColor(red: 0, green: 0, blue: 1.0, alpha: 0.3)
-        default:
-            cell.contentView.backgroundColor = UIColor(red: 0, green: 1.0, blue: 0, alpha: 0.3)
-        }
-            return cell
-        }
+        cell.configure(prefectureName: prefectureData[indexPath.row], index: indexPath.row)
+
+        return cell
+    }
 }
-
